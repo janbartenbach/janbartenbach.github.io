@@ -140,9 +140,9 @@ module.exports = configure(function (ctx) {
       
 
       manifest: {
-        name: `jans website`,
-        short_name: `jans website`,
-        description: `jans website`,
+        name: `StraightUp`,
+        short_name: `StraightUp`,
+        description: `StraightUp`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',

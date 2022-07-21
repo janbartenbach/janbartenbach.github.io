@@ -1,8 +1,8 @@
 {
   "name": "website",
   "version": "0.0.1",
-  "description": "jans website",
-  "productName": "jans website",
+  "description": "StraightUp",
+  "productName": "StraightUp",
   "author": "“Jan <“jan.bartenbach@gmx.de>",
   "private": true,
   "scripts": {
