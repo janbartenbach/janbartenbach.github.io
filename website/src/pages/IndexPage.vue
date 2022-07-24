@@ -69,7 +69,10 @@
         <div class="text-primary" style="margin-bottom:20px; font-size:20px;">The App</div>
         <div >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
       </div>
-      <q-img style="padding-top:30px;min-width:300px; width:30%;" src="~assets/AppDesgin.png"></q-img>
+      <!-- <q-img style="padding-top:30px;min-width:300px; width:30%;" src="~assets/AppDesgin.png"></q-img> -->
+      <video  style="padding-top:30px;min-width:300px; width:30%;" poster="https://cdn.quasar.dev/img/polina.jpg" autoplay loop muted>
+        <source type="video/webm" src="~assets/video_App.mp4">
+      </video>
     </div>
 
     <!-- ZwischenBlock Überschrift -->
@@ -103,20 +106,15 @@
         </video> -->
 
     <!-- EndDiv -->
-    <div class="row justify-around items-center bg-primary" style="height:300px; width:100%; border:soli">
-      <div class="column justify-around text-black" style="width:25%; border:soli; height:200px; font-size:17px; font-weight:400">
-        StraightUp
-        <q-separator color="black" style="width:35%"></q-separator>
+    <div class="row justify-around items-center bg-black" style="height:300px; width:100%; border:soli">
+      <div class="column justify-around items-center text-white" style="width:50%; border:soli; height:200px; font-size:12px; font-weight:400">
         Erik Vautrin <br>
         Marcus Hamann-Schrör<br>
         Jan Bartenbach
       </div>
-      <div class="row justify-around items-center" style="width:25%; border:soli; height:200px">
-        <q-img style="width:40%;" src="~assets/gurt3.png"></q-img>
-      </div>
-      <div class="row justify-center items-center" style="width:25%; border:soli; height:200px">
-        <q-img style="width:25%;" src="~assets/Logo_NoShadow_Black.png"></q-img>
-      </div>
+      <video  style="width:50%; max-height:300px; padding:10px 0px" poster="https://cdn.quasar.dev/img/polina.jpg" autoplay loop muted>
+        <source type="video/webm" src="~assets/Video_Rot.mp4">
+      </video>
     </div>
 
   </q-page>
