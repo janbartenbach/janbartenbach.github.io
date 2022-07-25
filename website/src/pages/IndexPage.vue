@@ -70,7 +70,7 @@
         <div >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</div>
       </div>
       <!-- <q-img style="padding-top:30px;min-width:300px; width:30%;" src="~assets/AppDesgin.png"></q-img> -->
-      <video  style="padding-top:30px;min-width:300px; width:30%;" autoplay loop muted>
+      <video  style="padding-top:30px;min-width:300px; width:30%;" autoplay loop muted playsInline>
         <source type="video/mp4" src="~assets/video_App.mp4">
       </video>
     </div>
@@ -112,7 +112,7 @@
         Marcus Hamann-Schrör<br>
         Jan Bartenbach<br>
         -<br>
-        v.12
+        v.13
       </div>
       <video  style="width:50%; max-height:300px; padding:10px 0px" autoplay loop muted playsInline>
         <source type="video/mp4" src="~assets/Video_Rot.mp4">
