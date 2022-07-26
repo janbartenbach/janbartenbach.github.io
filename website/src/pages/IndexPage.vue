@@ -21,7 +21,7 @@
 
     <!-- Intro Video of Product -->
     <video  style="margin:50px 0px;min-width:300px; width:75%" autoplay loop muted playsInline>
-      <source type="video/mp4" src="~assets/VideoLoop_weiß.mp4">
+      <source type="video/mp4" src="~assets/VideoLoop_weiß_v2.mp4">
     </video>
     <!-- <q-img src="~assets/gurt2.png" style="margin-top:100px; width:60%; border:soli;"></q-img> -->
 
