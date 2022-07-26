@@ -2,23 +2,28 @@
   <q-page class="column justify-start items-center bg-white" style="width:100%">
 
     <!-- Kopfzeile -->
-    <div class="row justify-around items-center bg-black text-white shadow-1" style="width:100%;height:60px">
-      <div style="width:0%"></div>
-      <div class="row justify-end" style="width:48%; font-weight:300; border:soli; padding-right:10px">Welcome To Our Website!</div>
-      <div class="row justify-around items-center" style="width:4%;border:soli"><q-img src="~assets/Logo_NoShadow_White.png" style="width:30px;"></q-img></div>
-      <div class="row justify-start" style="width:48%; font-weight:300; border:soli; padding-left:10px">StraightUp-Startup </div>
-      <div style="width:0%"></div>
+    <div class="row justify-around items-center bg-black text-white shadow-1" style="width:100%;height:45px">
+      <div class="row justify-around items-center" style="border:soli">
+        <div class="row justify-around items-center" style="border:soli"><q-img src="~assets/Logo_NoShadow_White.png" style="width:30px;"></q-img></div>
+        <div class="row justify-start" style="font-weight:300; border:soli; padding-left:10px;">StraightUp</div>
+      </div>
     </div>
 
 
     <!-- White Logo div -->
-    <div class="bg-white column items-center justify-around" style="width:100%; margin:20px 0px">
+    <!-- <div class="bg-white column items-center justify-around" style="width:100%; margin:20px 0px">
         <img
           alt="Quasar logo"
           src="~assets/test3.png"
           style="width: 60%; margin:60px 0px"
         >
-    </div>
+    </div> -->
+
+    <!-- Intro Video of Product -->
+    <video  style="margin:50px 0px;min-width:300px; width:75%" autoplay loop muted playsInline>
+      <source type="video/mp4" src="~assets/VideoLoop_weiß.mp4">
+    </video>
+    <!-- <q-img src="~assets/gurt2.png" style="margin-top:100px; width:60%; border:soli;"></q-img> -->
 
     <!-- ZwischenBlock Überschrift -->
     <div class="row justify-around items-center bg-primary" style="width:100%; height:100px;">
@@ -27,32 +32,11 @@
       </div>
     </div>
 
-   <!-- <q-carousel
-      swipeable
-      animated
-      v-model="slide"
-      infinite
-      thumbnails
-      transition-prev="slide-right"
-      transition-next="slide-left"
-      transition-duration="1000"
-      @mouseenter="autoplay = false"
-      @mouseleave="autoplay = true"
-      control-color="black"
-      style=" height:max-content; margin:30px 0px; border:solid; overflow:auto"
-      
-    >
-      <q-carousel-slide :name="1" img-src="~assets/gurt2.png"  style="border:solid;"/>
-      <q-carousel-slide :name="2" img-src="~assets/gurt3.png" style="width:80%;margin-left:10%"/>
-    </q-carousel> -->
-
-    <q-img src="~assets/gurt2.png" style="margin-top:100px; width:60%; border:soli;"></q-img>
-
     <!-- Separator -->
-    <q-separator color="black" style="width:80%; margin:100px 0px"></q-separator>
+    <!-- <q-separator color="black" style="width:80%; margin:100px 0px"></q-separator> -->
     
     <!-- Produkt -->
-    <div class="row justify-around items-center" style="width:80%; border:soli">
+    <div class="row justify-around items-center" style="margin-top:50px;width:80%; border:soli">
       <q-img style="width:65%; min-width:350px" src="~assets/GurtBeschriftet.png"></q-img>
       <div class="column justify around" style="width:30%;min-width:250px; border:soli;padding-top:30px">
         <div class="text-primary" style="margin-bottom:20px; font-size:20px;">The Wearable Component</div>
@@ -106,17 +90,28 @@
         </video> -->
 
     <!-- EndDiv -->
-    <div class="row justify-around items-center bg-black" style="height:300px; width:100%; border:soli">
-      <div class="column justify-around items-center text-white" style="width:50%; border:soli; height:200px; font-size:12px; font-weight:400">
-        Erik Vautrin <br>
-        Marcus Hamann-Schrör<br>
-        Jan Bartenbach<br>
-        -<br>
-        v.13
+    <div class="row justify-around items-center bg-black" style="height:200px; width:100%; border:soli">
+        <div class="column justify-around text-white" style="width:25%; height:80%; margin-right:20px; border:soli">
+          Erik Vautrin <br>
+          Marcus Hamann-Schroer<br>
+          Jan Bartenbach<br>
+          <br>
+          v.15
+        </div>
+        <div class="column justify-around text-white" style="width:25%; height:80%; margin-right:20px; border:soli">
+          Impressum: <br>
+          StraightUp<br>
+          Karlsruhe<br>
+          ---<br>
+          ---
+        </div>
+      <div class="bg-white row items-center justify-around" style="width:30%; height:80%; border-radius:15px; margin-right:20px; border:soli">
+        <img
+            alt="Quasar logo"
+            src="~assets/test3.png"
+            style="width:80%; border:soli"
+          >
       </div>
-      <video  style="width:50%; max-height:300px; padding:10px 0px" autoplay loop muted playsInline>
-        <source type="video/mp4" src="~assets/Video_Rot.mp4">
-      </video>
     </div>
 
   </q-page>
